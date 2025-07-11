@@ -1,0 +1,90 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-07-11 11:49:11</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">马斯克 特朗普 ETF</td>
+                    <td class="count">15</td>
+                    <td class="percentage">5.88%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8ksnCYXDIoC" target="_blank" class="news-link">特朗普赢了，他们惨了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时49分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8ksi586Lzoi" target="_blank" class="news-link">特朗普“加压”在前，鲁比奥亚洲行“任务艰难”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时49分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2082294" target="_blank" class="news-link">特朗普称将对未接到关税函的国家征收15%或20%“统一关税”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时49分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8ktUKyuVjLo" target="_blank" class="news-link">来中国前，黄仁勋先去见了特朗普</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时49分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Grok4%E8%83%BD%E6%92%91%E8%B5%B7%E9%A9%AC%E6%96%AF%E5%85%8B%E7%9A%84%E9%87%8E%E5%BF%83%E5%90%97" target="_blank" class="news-link">Grok4能撑起马斯克的野心吗</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时49分</font></div><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750862" target="_blank" class="news-link">特朗普最后一刻“信口开河”，越南对关税协议“惊讶、失望和愤怒”？</a> [6] <font color='grey'>- 11时49分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E5%B0%86%E5%8F%91%E5%B8%83%E6%9C%89%E5%85%B3%E4%BF%84%E7%BD%97%E6%96%AF%E7%9A%84%E9%87%8D%E5%A4%A7%E5%A3%B0%E6%98%8E" target="_blank" class="news-link">特朗普：将发布有关俄罗斯的重大声明</a> [7] <font color='grey'>- 11时49分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750871" target="_blank" class="news-link">特朗普：对加拿大商品征收35%关税，对多数贸易伙伴征收15%或20%的关税，将向欧盟发函</a> [7] <font color='grey'>- 11时49分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31148683" target="_blank" class="news-link">石破茂反击盟友特朗普：关税战赌上了国家利益，日本怎能被美国看扁</a> [8] <font color='grey'>- 11时49分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2082181" target="_blank" class="news-link">比特币短暂突破11.7万刷新高 特朗普再催鲍威尔降息 | 环球市场</a> [9] <font color='grey'>- 11时49分</font><br>[douyin] <a href="https://www.douyin.com/hot/2163169" target="_blank" class="news-link">特朗普称对加拿大征收35%关税</a> [9] <font color='grey'>- 11时49分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%A9%AC%E6%96%AF%E5%85%8B%E5%8F%91%E5%B8%83Grok4" target="_blank" class="news-link">马斯克发布Grok4</a> [15] <font color='grey'>- 11时49分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E5%B0%86%E5%AF%B9%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%BE%81%E6%94%B635%25%E5%85%B3%E7%A8%8E" target="_blank" class="news-link">特朗普：将对加拿大征收35%关税</a> [22] <font color='grey'>- 11时49分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7525392453931634239/" target="_blank" class="news-link">特朗普再对8国加征关税有何深层动机</a> [27] <font color='grey'>- 11时49分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E8%B4%A2%E9%95%BF%E5%86%8D%E6%80%BC%E9%A9%AC%E6%96%AF%E5%85%8B%EF%BC%9A%E7%81%AB%E6%98%9F%E4%B8%8A%E8%B5%A2%E9%80%89%E7%A5%A8%E5%90%A7" target="_blank" class="news-link">美财长再怼马斯克：火星上赢选票吧</a> [28] <font color='grey'>- 11时49分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">claude Anthropic</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3750796" target="_blank" class="news-link">Grok 4正式发布！当世最强算力训练，对垒GPT-5和Claude 4 Opus</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时49分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E7%BE%8E%E8%B4%A2%E9%95%BF%E5%86%8D%E6%80%BC%E9%A9%AC%E6%96%AF%E5%85%8B%EF%BC%9A%E7%81%AB%E6%98%9F%E4%B8%8A%E8%B5%A2%E9%80%89%E7%A5%A8%E5%90%A7" target="_blank" class="news-link">美财长再怼马斯克：火星上赢选票吧</a> [28]</li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=Grok4%E8%83%BD%E6%92%91%E8%B5%B7%E9%A9%AC%E6%96%AF%E5%85%8B%E7%9A%84%E9%87%8E%E5%BF%83%E5%90%97" target="_blank" class="news-link">Grok4能撑起马斯克的野心吗</a> <font color='red'><strong>[5]</strong></font></li></ul></div>
+        </body>
+        </html>
+        
