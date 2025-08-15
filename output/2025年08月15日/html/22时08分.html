@@ -1,0 +1,98 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-08-15 22:08:50</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">马斯克 特朗普 ETF</td>
+                    <td class="count">11</td>
+                    <td class="percentage">4.31%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E5%B0%86%E4%BB%A5%E6%9C%80%E9%AB%98%E7%A4%BC%E4%BB%AA%E4%BA%B2%E8%87%AA%E8%BF%8E%E6%8E%A5%E6%99%AE%E4%BA%AC" target="_blank" class="news-link">特朗普将以最高礼仪亲自迎接普京</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时08分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7538307998842916394/" target="_blank" class="news-link">特朗普将以最高礼仪亲自迎接普京</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时08分</font><br>[douyin] <a href="https://www.douyin.com/hot/2204535" target="_blank" class="news-link">美媒：特朗普将亲自迎接普京</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时08分</font><br>[douyin] <a href="https://www.douyin.com/hot/2204574" target="_blank" class="news-link">特朗普普京将会晤</a> [8] <font color='grey'>- 22时08分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31403319" target="_blank" class="news-link">特朗普连说两遍：如果我不是总统，普京早就占领整个乌克兰了</a> [9] <font color='grey'>- 22时08分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753350" target="_blank" class="news-link">&quot;特普会&quot;倒计时，特朗普预计失败概率25%，美临时豁免部分制裁，白宫威胁手中工具很多</a> [10] <font color='grey'>- 22时08分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E5%B7%B2%E5%87%BA%E5%8F%91+%E5%B8%A6%E4%BA%86%E8%BF%99%E4%BA%9B%E4%BA%BA" target="_blank" class="news-link">特朗普已出发 带了这些人</a> [15] <font color='grey'>- 22时08分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E4%B8%8E%E6%99%AE%E4%BA%AC%E4%BC%9A%E6%99%A4%E5%89%8D%E5%86%8D%E5%8F%91%E5%A8%81%E8%83%81" target="_blank" class="news-link">特朗普与普京会晤前再发威胁</a> [19] <font color='grey'>- 22时08分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%23%E6%99%AE%E4%BA%AC%E6%83%B3%E4%BB%8E%E7%89%B9%E6%9C%97%E6%99%AE%E6%89%8B%E4%B8%8A%E5%BE%97%E5%88%B0%E4%BB%80%E4%B9%88%23" target="_blank" class="news-link">#普京想从特朗普手上得到什么#</a> [20] <font color='grey'>- 22时08分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7538661696978570803/" target="_blank" class="news-link">特朗普：要不是我普京早就吞并乌克兰</a> [21] <font color='grey'>- 22时08分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%E7%89%B9%E6%9C%97%E6%99%AE%E4%BC%9A%E8%B0%88%E5%9C%B0%E6%95%B0%E7%99%BE%E7%89%B9%E5%B7%A5%E5%85%A5%E9%A9%BB" target="_blank" class="news-link">普京特朗普会谈地数百特工入驻</a> [21] <font color='grey'>- 22时08分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">谷歌 gemini</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753372" target="_blank" class="news-link">段永平Q2豪赌AI：谷歌持仓暴增75%，英伟达加仓近50%，同时加仓苹果、拼多多</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时08分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1938987298772457453" target="_blank" class="news-link">邓紫棋自曝 2019 年就投资 AI，已经赚了 10 倍，明星投资有哪些趣闻？普通人能从中学到些什么？</a> [13] <font color='grey'>- 22时08分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E5%B7%B2%E5%87%BA%E5%8F%91+%E5%B8%A6%E4%BA%86%E8%BF%99%E4%BA%9B%E4%BA%BA" target="_blank" class="news-link">特朗普已出发 带了这些人</a> [15]</li></ul></div>
+        </body>
+        </html>
+        
