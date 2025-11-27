@@ -1,0 +1,106 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-11-27 18:53:45</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">马斯克 特朗普 ETF</td>
+                    <td class="count">7</td>
+                    <td class="percentage">2.75%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%A7%A3%E8%AF%BB%E9%A9%AC%E6%96%AF%E5%85%8B%E7%94%A8AI%E5%AE%A3%E6%88%98LOL%E9%A1%B6%E5%B0%96%E6%88%98%E9%98%9F" target="_blank" class="news-link">解读马斯克用AI宣战LOL顶尖战队</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时53分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32049650" target="_blank" class="news-link">观察｜俄乌和谈中的特朗普之道：让亲信而非外交官“撮合交易”</a> [11] <font color='grey'>- 18时53分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1976945155765465978" target="_blank" class="news-link">特朗普称俄乌和平协议「非常接近达成」，已派特使赴莫斯科，协议内容由 28 点改为 19 点，哪些信息值得关注？</a> [11] <font color='grey'>- 18时53分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32053388" target="_blank" class="news-link">特朗普致电高市：别在台湾问题上挑衅</a> [17] <font color='grey'>- 18时53分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7576971637803716150/" target="_blank" class="news-link">特朗普施压高市别在台湾问题上挑衅</a> [18] <font color='grey'>- 18时53分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E6%96%BD%E5%8E%8B%E9%AB%98%E5%B8%82%E5%88%AB%E5%9C%A8%E5%8F%B0%E6%B9%BE%E9%97%AE%E9%A2%98%E4%B8%8A%E6%8C%91%E8%A1%85" target="_blank" class="news-link">特朗普施压高市别在台湾问题上挑衅</a> [18] <font color='grey'>- 18时53分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347542&amp;amp;topic_name=%E7%89%B9%E6%9C%97%E6%99%AE%E5%8A%9B%E6%8E%A8%2C%E5%B0%96%E5%B3%B0%E6%97%B6%E5%88%BB4%E8%A6%81%E6%9D%A5%E4%BA%86%3F" target="_blank" class="news-link">特朗普力推,尖峰时刻4要来了?</a> [18] <font color='grey'>- 18时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2212827" target="_blank" class="news-link">【每日收评】三大指数冲高回落涨跌不一，AI产业链分化加剧，锂电概念股再迎爆发</a> [12] <font color='grey'>- 18时53分</font><br><div class='new-title'>🆕 [weibo] <a href="https://s.weibo.com/weibo?q=%23%E5%A4%B8%E5%85%8BAI%E7%9C%BC%E9%95%9C%E5%B8%A6%E6%9D%A5%E7%9A%84%E8%A1%8C%E4%B8%9A%E5%88%A9%E5%A5%BD%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">夸克AI眼镜带来的行业利好</a> [18] <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%88%91%E7%94%A8AI%E5%BC%80%E4%BA%86%E5%AE%B6%E4%B8%80%E4%BA%BA%E5%85%AC%E5%8F%B8" target="_blank" class="news-link">我用AI开了家一人公司</a> [22] <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%8E%8B%E8%87%AA%E5%A6%82%E7%A7%B0%E9%80%89%E6%8B%A9%E7%94%A8AI%E5%88%9B%E4%B8%9A%E8%BF%98%E5%80%BA" target="_blank" class="news-link">王自如称选择用AI创业还债</a> [27] <font color='grey'>- 18时53分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=TES%E5%AE%98%E5%AE%A3naiyou%E5%8A%A0%E5%85%A5" target="_blank" class="news-link">TES官宣naiyou加入</a> [28] <font color='grey'>- 18时53分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">谷歌 gemini</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3760164" target="_blank" class="news-link">感恩节将至，标普连涨四日，英伟达小涨、谷歌微跌，人民币创逾一年新高，比特币重回9万美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时53分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2212466" target="_blank" class="news-link">“AI新王”强势崛起！大摩：2027年谷歌TPU外销量或达100万颗</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">chatgpt openai</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3760202" target="_blank" class="news-link">甲骨文股价反弹！华尔街&quot;抄底派&quot;料股价涨超90%，“现有估值几乎没考虑OpenAI业务”</a> [10] <font color='grey'>- 18时53分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 4 条)</h3>
+            <h4>bilibili 热搜 (3 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E6%88%91%E7%94%A8AI%E5%BC%80%E4%BA%86%E5%AE%B6%E4%B8%80%E4%BA%BA%E5%85%AC%E5%8F%B8" target="_blank" class="news-link">我用AI开了家一人公司</a> [22]</li><li><a href="https://search.bilibili.com/all?keyword=%E7%8E%8B%E8%87%AA%E5%A6%82%E7%A7%B0%E9%80%89%E6%8B%A9%E7%94%A8AI%E5%88%9B%E4%B8%9A%E8%BF%98%E5%80%BA" target="_blank" class="news-link">王自如称选择用AI创业还债</a> [27]</li><li><a href="https://search.bilibili.com/all?keyword=TES%E5%AE%98%E5%AE%A3naiyou%E5%8A%A0%E5%85%A5" target="_blank" class="news-link">TES官宣naiyou加入</a> [28]</li></ul><h4>weibo (1 条)</h4><ul><li><a href="https://s.weibo.com/weibo?q=%23%E5%A4%B8%E5%85%8BAI%E7%9C%BC%E9%95%9C%E5%B8%A6%E6%9D%A5%E7%9A%84%E8%A1%8C%E4%B8%9A%E5%88%A9%E5%A5%BD%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">夸克AI眼镜带来的行业利好</a> [18]</li></ul></div>
+        </body>
+        </html>
+        
